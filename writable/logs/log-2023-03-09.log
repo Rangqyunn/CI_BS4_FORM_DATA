@@ -1,0 +1,121 @@
+ERROR - 2023-03-09 09:36:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kmjhngb' at line 1 in C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from m...', 0)
+#1 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\app\Controllers\Data.php(44): App\Models\MData->getSelectData(',kmjhngb')
+#5 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Data->editData(',kmjhngb')
+#6 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\rdwit\\...')
+#10 {main}
+CRITICAL - 2023-03-09 09:36:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kmjhngb' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from mahasiswa where nim = ,kmjhngb', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from mahasiswa where nim = ,kmjhngb')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from mahasiswa where nim = ,kmjhngb')
+ 4 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = ,kmjhngb')
+ 5 APPPATH\Controllers\Data.php(44): App\Models\MData->getSelectData(',kmjhngb')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->editData(',kmjhngb')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-09 09:36:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kmjhngb' at line 1 in C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from m...', 0)
+#1 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\app\Controllers\Data.php(44): App\Models\MData->getSelectData(',kmjhngb')
+#5 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Data->editData(',kmjhngb')
+#6 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\rdwit\\...')
+#10 {main}
+CRITICAL - 2023-03-09 09:36:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kmjhngb' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from mahasiswa where nim = ,kmjhngb', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from mahasiswa where nim = ,kmjhngb')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from mahasiswa where nim = ,kmjhngb')
+ 4 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = ,kmjhngb')
+ 5 APPPATH\Controllers\Data.php(44): App\Models\MData->getSelectData(',kmjhngb')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->editData(',kmjhngb')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-09 09:37:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kmjhngb' at line 1 in C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from m...', 0)
+#1 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\app\Controllers\Data.php(44): App\Models\MData->getSelectData(',kmjhngb')
+#5 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Data->editData(',kmjhngb')
+#6 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\rdwit\\...')
+#10 {main}
+CRITICAL - 2023-03-09 09:37:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kmjhngb' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from mahasiswa where nim = ,kmjhngb', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from mahasiswa where nim = ,kmjhngb')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from mahasiswa where nim = ,kmjhngb')
+ 4 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = ,kmjhngb')
+ 5 APPPATH\Controllers\Data.php(44): App\Models\MData->getSelectData(',kmjhngb')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->editData(',kmjhngb')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-09 09:37:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kmjhngb' at line 1 in C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from m...', 0)
+#1 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\app\Controllers\Data.php(44): App\Models\MData->getSelectData(',kmjhngb')
+#5 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Data->editData(',kmjhngb')
+#6 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\rdwit\\...')
+#10 {main}
+CRITICAL - 2023-03-09 09:37:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kmjhngb' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from mahasiswa where nim = ,kmjhngb', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from mahasiswa where nim = ,kmjhngb')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from mahasiswa where nim = ,kmjhngb')
+ 4 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = ,kmjhngb')
+ 5 APPPATH\Controllers\Data.php(44): App\Models\MData->getSelectData(',kmjhngb')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->editData(',kmjhngb')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 09:44:25 --> Too few arguments to function App\Controllers\Data::hapusData(), 0 passed in C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Data.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->hapusData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 09:44:33 --> Too few arguments to function App\Controllers\Data::editData(), 0 passed in C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Data.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->editData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 09:44:39 --> Too few arguments to function App\Controllers\Data::hapusData(), 0 passed in C:\Users\rdwit\Downloads\codeigniter4-framework-v4.2.10-0-g6ffad15\codeigniter4-framework-6ffad15\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Data.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->hapusData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
