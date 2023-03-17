@@ -18,6 +18,12 @@
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 		<div class="container">
+		<img
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c8612ba-81b2-4fa8-a9e1-74a58a49d430/degwlfh-15ff626a-7be1-49aa-ac47-9daaad83a2af.png/v1/fill/w_400,h_123,strp/nekopoi_logo_by_nephi_chanmoe_degwlfh-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIzIiwicGF0aCI6IlwvZlwvOWM4NjEyYmEtODFiMi00ZmE4LWE5ZTEtNzRhNThhNDlkNDMwXC9kZWd3bGZoLTE1ZmY2MjZhLTdiZTEtNDlhYS1hYzQ3LTlkYWFhZDgzYTJhZi5wbmciLCJ3aWR0aCI6Ijw9NDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.yQQVyauCfIRPr1ba6mx_4OrYhg39-7btY39hjtVselE"
+        height="50"
+        alt="MDB Logo"
+        loading="lazy"
+      />
 			<a class="navbar-brand" href="<?= base_url() ?>">Home</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -25,7 +31,10 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-					<a class="nav-link" href="<?= base_url('data/') ?>">Daftar Data</a>
+					<a class="navbar-brand" href="<?= base_url('data/') ?>">Daftar Data</a>
+					</li>
+					<li class="nav-item">
+					<a class="navbar-brand" href="<?= base_url('login') ?>">Log Out</a>
 					</li>
 					<!-- <li class="nav-item">
 						<a class="nav-link" href="<?= base_url('contact') ?>">Contact</a>
@@ -88,7 +97,7 @@
   <div
     id="intro-example"
     class="p-5 text-center bg-image"
-    style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');"
+    style="background-image: url('https://cdn.antaranews.com/cache/800x533/2022/11/11/antarafoto-hut-ke-11-partai-nasdem-111122-ies-4_1.jpg');"
   >
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
       <div class="d-flex justify-content-center align-items-center h-100">
@@ -101,21 +110,21 @@
             role="button"
             rel="nofollow"
             target="_blank"
-          >Daftar Data</a
+          >Tepat</a
           >
           <a
             class="btn btn-outline-light btn-lg m-2"
             href="https://mdbootstrap.com/docs/standard/"
             target="_blank"
             role="button"
-          >Download MDB UI KIT</a
+          >Aman (insyaAllah)</a
           >
         </div>
       </div>
     </div>
   </div>
 
-	<div class="container">
+	<!-- <div class="container">
 		<div class="row">
 			<div class="col-md-12 my-2 card">
 				<div class="card-body">
@@ -149,10 +158,11 @@
 		<div class="container text-center">Copyright &copy <?= Date('Y') ?> CI News</div>
 	</footer>
 s
-	<!-- Jquery dan Bootsrap JS -->
+	Jquery dan Bootsrap JS -->
+<!-- 	
 	<script src="<?= base_url('js/jquery.min.js') ?>"></script>
 	<script src="<?= base_url('js/bootstrap.min.js') ?>"></script>
 
 </body>
 
-</html>
+</html> -->
