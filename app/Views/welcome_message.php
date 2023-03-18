@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portal Berita Codeigniter</title>
+	<title>HOME</title>
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>" />
@@ -98,6 +98,7 @@
     id="intro-example"
     class="p-5 text-center bg-image"
     style="background-image: url('https://cdn.antaranews.com/cache/800x533/2022/11/11/antarafoto-hut-ke-11-partai-nasdem-111122-ies-4_1.jpg');"
+	height="50"
   >
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
       <div class="d-flex justify-content-center align-items-center h-100">
@@ -123,6 +124,12 @@
       </div>
     </div>
   </div>
+  <div
+    id="intro-example"
+    class="p-5 text-center bg-image"
+    style="background-image: url('https://imgsrv2.voi.id/chxkvEPn3tuikLUSIVNM83xbLyU3rPeVm9tjgT-tFMU/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8yMTQ5ODUvMjAyMjEwMDMxMjEyLW1haW4uY3JvcHBlZF8xNjY0NzczOTUxLmpwZWc.jpg');"
+	height="50"
+  >
 
 	<!-- <div class="container">
 		<div class="row">
@@ -152,17 +159,17 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
-	<footer class="jumbotron jumbotron-fluid mt-5 mb-0">
+	<!-- <footer class="jumbotron jumbotron-fluid mt-5 mb-0">
 		<div class="container text-center">Copyright &copy <?= Date('Y') ?> CI News</div>
-	</footer>
-s
-	Jquery dan Bootsrap JS -->
-<!-- 	
+	</footer> -->
+
+	<!-- Jquery dan Bootsrap JS -->
+	
 	<script src="<?= base_url('js/jquery.min.js') ?>"></script>
 	<script src="<?= base_url('js/bootstrap.min.js') ?>"></script>
 
 </body>
 
-</html> -->
+</html>

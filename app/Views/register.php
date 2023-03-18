@@ -36,6 +36,9 @@
                         <input type="password" name="confpassword" class="form-control" id="InputForConfPassword">
                     </div>
                     <button type="submit" class="btn btn-primary">Register</button>
+                    <td> 
+                      <a href="Login">Go Back </a>
+                        </td> 
                 </form>
             </div>
              

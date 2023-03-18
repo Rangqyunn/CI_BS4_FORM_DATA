@@ -37,8 +37,9 @@
                         <input type="password" name="password" class="form-control" id="InputForPassword">
                     </div>
                     <button type="submit" class="btn btn-outline-success" data-mdb-ripple-color="dark">Login</button>
-
-                    
+                    <td> 
+                      <a href="Register">Buat Akun </a>
+                        </td>                
                 </form>
             </div>
             <img
